@@ -1,0 +1,247 @@
+/* common css start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* common css end */
+
+/* nav section start */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #02918b;
+    text-align: justify;
+}
+
+.contaner {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav .logo {
+    width: 40%;
+    text-align: left;
+}
+
+nav .menu {
+    width: 60%;
+    text-align: right;
+}
+
+nav {
+    background: #02918b;
+}
+
+ul {
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.menu ul a:hover {
+    background: yellow;
+    color: black;
+    border-radius: 8px;
+}
+
+/* nav section end */
+
+/* BANNER START HERE */
+#banner {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #131313a0;
+    background-blend-mode: multiply;
+    height: 725px;
+    text-align: center;
+    color: white;
+}
+
+#banner .contaner {
+    height: 100%;
+}
+
+#banner .row {
+    height: 100%;
+}
+
+#banner .banner_item {
+    width: 100%;
+}
+
+#banner .banner_item h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#banner .banner_item h1 {
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color: #fff;
+}
+
+#banner .banner_item p {
+    font-size: 18PX;
+    font-weight: 400;
+    color: #fff;
+}
+
+#banner .banner_item img {
+    display: block;
+    margin: 51px auto;
+}
+
+#banner .banner_item a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 19px 40px;
+    background: #cfc91d;
+    color: black;
+}
+
+/* BANNER ENDS HERE */
+
+/* ABOUT START HERE */
+
+#about {
+    text-align: center;
+    padding-bottom: 155px ;
+}
+
+#about .about_us {
+    margin-top: 97px;
+}
+#about .about_us h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+#about .about_us img {
+    display: inline-block;
+    padding: 35px 0;
+}
+#about .about_us p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #7e8287;
+}
+#about .about_us p b{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#about .row{
+    margin-top: 117px;
+}
+#about .about_item{
+    width: 25%;
+    border-right: 2px solid #7e8287;
+    padding: 50px 60px;
+
+}
+#about .about_item h4{
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+
+}
+#about .about_item p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 20px;
+}
+#about .about_item:last-child{
+    border: none;
+}
+
+/* ABOUT ENDS HERE */
+
+/* SERVICES START HERE */
+
+#services{
+    background: url(../img/services.jpg);
+    height: 725px;
+    background-size: cover;
+    background-position: center;
+}
+#services .high{
+    width: 50%;
+}
+#services .services_list{
+    padding-top: 74px;
+}
+#services .services_list h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+#services .services_list img {
+    display: inline-block;
+    padding: 35px 0;
+}
+#services .services_list p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #7e8287;
+}
+#services .services_item{
+    width: 50%;
+    /* padding-bottom: 87px; */
+    
+}
+#services .services_item h4{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#services .services_item img{
+    margin-top: 57px;
+}
+#services .services_item p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 22px;
+    margin-right: 128px;
+}
+/* SERVICES ENDS HERE */
